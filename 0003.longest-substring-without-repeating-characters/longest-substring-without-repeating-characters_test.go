@@ -24,14 +24,14 @@ func Test_Question3(t *testing.T) {
 			para3{"abcabcbb"},
 			ans3{3},
 		},
-		// {
-		// 	para3{"bbbbb"},
-		// 	ans3{1},
-		// },
-		// {
-		// 	para3{"pwwkew"},
-		// 	ans3{3},
-		// },
+		{
+			para3{"bbbbb"},
+			ans3{1},
+		},
+		{
+			para3{"pwwkew"},
+			ans3{3},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 3------------------------\n")

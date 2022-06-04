@@ -16,7 +16,7 @@ type para1 struct {
 }
 
 type ans1 struct {
-	one []int
+	result1 []int
 }
 
 func Test_Question1(t *testing.T) {
@@ -38,7 +38,7 @@ func Test_Question1(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1------------------------\n")
 	for _, q := range qs {
 		input := q.para1
-		expect := q.ans1.one
+		expect := q.ans1.result1
 
 		actual := twoSum(input.nums, input.target)
 		fmt.Printf("【input】:%v\n【expect】:%v\n【actual】:%v\n", input, expect, actual)
