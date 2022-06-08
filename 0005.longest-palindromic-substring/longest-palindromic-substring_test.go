@@ -37,7 +37,7 @@ func Test_Question5(t *testing.T) {
 		input := q.para5.input1
 		expect := q.ans5.result1
 		actual := longestPalindrome(input)
-		fmt.Printf("【input】:%v\n【expect】:%v\n【actual】:%v\n", input, expect, actual)
+		fmt.Printf("input】:%v\nexpect:%v\nactual:%v\n", input, expect, actual)
 	}
 	fmt.Printf("\n\n\n")
 }

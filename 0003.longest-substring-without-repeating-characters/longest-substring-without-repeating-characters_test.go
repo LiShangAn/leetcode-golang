@@ -38,6 +38,6 @@ func Test_Question3(t *testing.T) {
 		input := q.para3.input1
 		expect := q.ans3.result1
 		actual := lengthOfLongestSubstring(input)
-		fmt.Printf("【input】:%v\n【expect】:%v\n【actual】:%v\n", input, expect, actual)
+		fmt.Printf("input:%v\nexpect:%v\nactual:%v\n", input, expect, actual)
 	}
 }
