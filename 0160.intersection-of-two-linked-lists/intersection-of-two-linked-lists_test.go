@@ -59,8 +59,6 @@ func Test_Question160(t *testing.T) {
 		// },
 	}
 
-	fmt.Printf("------------------------Leetcode Problem 160------------------------\n")
-
 	for _, q := range qs {
 		_, p := q.ans160, q.para160
 		fmt.Printf("【input】:%v 【output】:%v\n", p, getIntersectionNode(Ints2List(p.one), Ints2List(p.another)))

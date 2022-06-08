@@ -35,7 +35,6 @@ func Test_Question1(t *testing.T) {
 		},
 	}
 
-	fmt.Printf("------------------------Leetcode Problem 1------------------------\n")
 	for _, q := range qs {
 		input := q.para1
 		expect := q.ans1.result1
