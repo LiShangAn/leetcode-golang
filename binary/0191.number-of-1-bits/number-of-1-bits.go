@@ -15,7 +15,7 @@ import "fmt"
 func hammingWeight1(num uint32) int {
 	count := 0
 
-	for num > 0 {
+	for num != 0 {
 		fmt.Printf("%b\n", num)
 		if num%2 == 1 {
 			count++
@@ -30,7 +30,7 @@ func hammingWeight2(num uint32) int {
 
 	count := 0
 
-	for num > 0 {
+	for num != 0 {
 		fmt.Printf("%b\n", num)
 		if num&1 == 1 {
 			count++
