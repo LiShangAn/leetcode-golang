@@ -10,6 +10,13 @@ func array_sample() {
 	// 陣列大小
 	fmt.Println(arr1)
 	fmt.Println(arr1[1:3])
+
+	s2 := make([]int, 5)
+	fmt.Println(s2)
+
+	// length := 5
+	res := make([]int, len(s2))
+	fmt.Println(res)
 	// arr1_len := len(arr1)
 	// fmt.Println("array 1 length: ", arr1_len)
 	// for i := 0; i < len(arr1); i++ {
