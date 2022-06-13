@@ -4,19 +4,24 @@ import "fmt"
 
 func array_sample() {
 	//arr1 := [...]int{1, 2, 3, 4, 5} // #3
-	arr1 := [5]int{2: 1, 4: 5} // #4
+	// arr1 := [5]int{2: 1, 4: 5} // #4
 	// arr5 := [...]int{2: 1, 4: 5}     // #5
 
 	// 陣列大小
-	fmt.Println(arr1)
-	fmt.Println(arr1[1:3])
+	// fmt.Println(arr1)
+	// fmt.Println(arr1[1:3])
 
-	s2 := make([]int, 5)
-	fmt.Println(s2)
+	// s2 := make([]int, 5)
+	// fmt.Println(s2)
 
 	// length := 5
-	res := make([]int, len(s2))
-	fmt.Println(res)
+	// res := make([]int, len(s2))
+	// fmt.Println(res)
+
+	dp := make([]int, 5)
+
+	fmt.Println(dp)
+
 	// arr1_len := len(arr1)
 	// fmt.Println("array 1 length: ", arr1_len)
 	// for i := 0; i < len(arr1); i++ {
