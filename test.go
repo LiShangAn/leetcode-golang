@@ -32,7 +32,13 @@ func array_sample() {
 
 func main() {
 
-	array_sample()
+	s := "abcde"
+	fmt.Println(s[0])
+	fmt.Println(s[1])
+	fmt.Println(rune(s[1]))
+	fmt.Println(string(s[0]))
+
+	// array_sample()
 
 	// s := "abc"
 
