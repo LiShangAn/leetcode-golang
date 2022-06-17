@@ -30,13 +30,25 @@ func array_sample() {
 	// }
 }
 
+func getConcatenation(nums []int) []int {
+
+	nums = append(nums, nums...)
+
+	return nums
+}
+
 func main() {
 
-	s := "abcde"
-	fmt.Println(s[0])
-	fmt.Println(s[1])
-	fmt.Println(rune(s[1]))
-	fmt.Println(string(s[0]))
+	input := []int{1, 2, 3, 4, 5}
+	result := getConcatenation(input)
+
+	fmt.Println(result)
+
+	// s := "abcde"
+	// fmt.Println(s[0])
+	// fmt.Println(s[1])
+	// fmt.Println(rune(s[1]))
+	// fmt.Println(string(s[0]))
 
 	// array_sample()
 
