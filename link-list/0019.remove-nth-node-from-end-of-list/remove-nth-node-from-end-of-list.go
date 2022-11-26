@@ -15,22 +15,21 @@ type ListNode struct {
  */
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 
-	count := 0
+	dummyNode := new(ListNode)
+	dummyNode.Next = head
+	currentNode := dummyNode
 
+	count := 0
 	tmp := head
 	for tmp != nil {
-		count++
 		tmp = tmp.Next
+		count++
 	}
-
-	result := new(ListNode)
-	result.Next = head
-	current := result
 
 	for i := 0; i < (count - n); i++ {
-		current = current.Next
+		currentNode = currentNode.Next
 	}
-	current.Next = current.Next.Next
+	currentNode.Next = currentNode.Next.Next
 
-	return result.Next
+	return dummyNode.Next
 }
